@@ -1,0 +1,156 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+#custom-search-input{
+   /* border: solid 1px #E4E4E4;
+    border-radius: 20px;*/
+    background-color: #fff;
+    margin: 5px;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 15px;
+}
+
+
+
+.main {
+  width: 640px;
+  margin: 150px auto 50px;
+  text-align: center;
+}
+.main .user {
+  text-align: left;
+}
+
+
+
+
+
+.img-thumbnail{
+  border:0px solid black !important;
+}
+
+
+div#xxseif {
+    min-width: 290px;
+    
+    margin: 20px;
+}
+#profileslug{
+
+    font-weight: 800;
+    font-family: -webkit-body;
+    color: black;
+
+}
+
+div#contentuser {
+    
+    
+}
+
+
+
+
+
+
+
+
+
+/*
+#liHov:hover{
+    background-color: #eee !important;
+}*/
+.list-group-item:first-child {
+    /* border-top-left-radius: 4px; */
+    /* border-top-right-radius: 4px; */
+}
+
+
+
+#nameuser{
+font-size: 28px;
+}
+
+
+#menuHor{
+  background-color: #e3edf0;
+  color: black;
+}
+#iconM{
+    color:#2e308f;
+ 
+}
+p{
+  color: black;
+}
+
+
+
+
+
+
+
+/***********************************
+
+***********************************/
+
+.boldme{
+  color: black;
+}
+
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4 
+{
+  display: block;
+}
+
+/*
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    color: #ffffff !important;
+    text-decoration: none !important;
+    background-color: #242627 !important;
+}
+*/
+.dropdown-menu{
+	font-size: 14px;
+}
+#mestyle{
+
+}
+
+#facus{
+  color: #5d5e60;
+}
+
+#facus0{
+  color: white;
+}

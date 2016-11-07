@@ -1,0 +1,552 @@
+#tagb:hover{
+color: red;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+   /* background-color: #a5a5a5 !important;*/
+}
+/* bootstrap 3 helpers */
+
+.navbar-form input, .form-inline input {
+  width:auto;
+}
+
+.navbar-form {
+  margin-top: 0px !important;
+}
+
+
+/* end */
+
+/* custom theme + Bootstrap resets */
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+
+
+/* only apply sticky columns on wider screens */
+@media (min-width: 1200px) {
+  #sidebar {
+  margin-left:15px;
+  }
+
+  #content {
+  padding-right:15px;
+  }
+
+  #sidebar.affix-top {
+      position: static;
+  }
+  
+  #sidebar.affix {
+      position: fixed !important;
+      top: 20px;
+      width:200px;
+  }
+
+  #midCol.affix-top {
+      position: static;
+  }
+
+  #midCol.affix-bottom {
+      padding-top:0;
+  }
+  
+  #midCol.affix {
+      position:fixed !important;
+      top: 20px;
+      width:292px;
+  }
+}
+
+.affix {
+      position:static;
+}
+.dropdown-menu {
+
+  padding: 0px !important;
+  }
+
+body {
+  background: url(http://theaccidentguys.co.uk/wp-content/uploads/2016/05/caabe25d-7440-46c1-bdbd-acc12f630ae2.png) no-repeat center center fixed !important;
+      background-repeat: no-repeat;
+    background-size: cover !important; 
+  font-family: 'Open Sans',Arial,Helvetica,Sans-Serif;
+  font-weight:300;
+  color:#676767;
+}
+
+a,a:hover {
+  color:#77CCDD;
+    text-decoration:none;
+}
+
+.highlight-bk {
+  background-color:#77CCDD;
+    padding:1px;
+    width:100%;
+}
+
+.highlight {
+  color:#77CCDD;
+}
+  
+  .navbar-nav {
+    max-height: 60px;
+}
+
+
+h3.highlight  {
+  padding-top:13px;
+    padding-bottom:14px;
+    border-bottom:2px solid #77CCDD;
+}
+
+.navbar {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f9fafa+0,dcddde+100 */
+background: #f9fafa; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #f9fafa 0%, #dcddde 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #f9fafa 0%,#dcddde 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #f9fafa 0%,#dcddde 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fafa', endColorstr='#dcddde',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    color:#ffffff;
+    border-radius:0;
+}
+.navbar-nav > li > a {
+    color:black;
+    padding-left:20px;
+    padding-right:20px;
+    border-left:1px solid #717171;
+}
+.navbar-nav > li:last-child > a {
+    border-right:1px solid  #717171;
+}
+
+.navbar-nav li a:hover {
+    background-color:#a5a5a5;
+}
+
+.navbar-nav > .open > a, .navbar-nav > .open > a:hover, .navbar-nav > .open > a:focus {
+  color: #000;
+    opacity:.9;
+}
+
+.navbar-brand {
+  color:#fff;
+}
+
+.accordion-group {
+  border-width:0;
+}
+
+.dropdown-menu {
+  min-width: 250px;
+}
+
+.caret {
+  color:#fff;
+}
+
+
+.navbar-toggle {
+  color:#fff;
+    border-width:0;
+}
+  
+.navbar-toggle:hover {
+  background-color:#fff;
+}
+
+.panel,.panel-heading {
+    border-radius:0;
+    border-width:0;
+    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.09);
+  box-shadow: 0 3px 3px  rgba(0, 0, 0, 0.09);
+}
+
+.thumbnail {
+  margin-bottom:8px;
+  border-radius:0;
+}
+
+.well {
+    border-radius:0;
+}
+
+.accordion-heading .accordion-toggle, .accordion-inner, .nav-stacked li > a {
+  padding-left:1px;
+}
+
+@media (min-width: 992px) {
+  .no-gutter.row > div[class*='col-md'] {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .no-gutter.row > .col-md-12 {
+    width: 99.99999999999999%;
+    *width: 99.93055555555554%;
+  }
+  .no-gutter.row .col-md-11 {
+    width: 91.66666666666666%;
+    *width: 91.59722222222221%;
+  }
+  .no-gutter.row > .col-md-10 {
+    width: 83.33333333333331%;
+    *width: 83.26388888888887%;
+  }
+  .no-gutter.row > .col-md-9 {
+    width: 74.99999999999999%;
+    *width: 74.93055555555554%;
+  }
+  .no-gutter.row > .col-md-8 {
+    width: 66.66666666666666%;
+    *width: 66.59722222222221%;
+  }
+  .no-gutter.row > .col-md-7 {
+    width: 58.33333333333333%;
+    *width: 58.263888888888886%;
+  }
+  .no-gutter.row > .col-md-6 {
+    width: 49.99999999999999%;
+  }
+  .no-gutter.row > .col-md-4 {
+    width: 33.33333333333333%;
+  }
+  .no-gutter.row > .col-md-3 {
+    width: 24.999999999999996%;
+    *width: 24.930555555555554%;
+  }
+  .no-gutter.row > .col-md-2 {
+    width: 16.666666666666664%;
+    *width: 16.59722222222222%;
+  }
+  .no-gutter.row > .col-md-1 {
+    width: 8.333333333333332%;
+    *width: 8.263888888888888%;
+  }
+}
+
+/* end custom theme */
+
+
+
+.sp1{
+  font-size: 32px;
+}
+#ifontawsome{
+    font-size: 30px;
+
+    margin-right: 10px;
+
+}
+button.btnspecial:hover {
+  color: white;
+background: rgb(118,166,216); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(118,166,216,1) 0%, rgba(52,73,154,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(118,166,216,1) 0%,rgba(52,73,154,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(118,166,216,1) 0%,rgba(52,73,154,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#76a6d8', endColorstr='#34499a',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+button.btnspecial {
+  padding-right: 30px;
+    background: #242627;
+    color: white;
+    font-size: 22px;
+    height: 100%;
+    border-radius: 0px;
+    border: 0px;
+}
+
+#onlyme:hover, #onlyme:focus {
+    color: rgb(7, 88, 255) !important;
+}
+
+#jcc16{
+  text-align: justify;
+  font-family: BRreplay;
+}
+#maxw7{
+  width: 100% !important;
+}
+.toggle-arrow{
+    background-position: -289px -96px;
+}
+
+.collapsed .toggle-arrow{
+    background-position: -312px -96px;
+}
+
+
+
+.scrollToTop {
+    width: 100px;
+    height: 130px;
+    padding: 10px;
+    text-align: center;
+    background: whiteSmoke;
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    position: fixed;
+    top: 520px;
+    right: -20px;
+    display: none;
+    opacity: 0.7;
+    background: url('http://shows.cts.com.tw/event/kidsicook/images/top.png') no-repeat 0px 20px;
+}
+.scrollToTop:hover{
+  opacity: 1;
+}
+
+#lititle{
+font-size: 16px;
+font-weight: 700;
+}
+
+}
+.h2h2{
+
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  overflow-x: hidden;
+  background-size: cover;
+      background-image: url('http://theaccidentguys.co.uk/wp-content/uploads/2016/05/Question-Banner-Application-process.png');
+
+
+}
+
+#titlemenu{
+
+}
+#centerh2 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 800;
+    line-height: 29px;
+    font-family: inherit;
+}
+#centerh3 {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 29px;
+    font-family: serif;
+}
+#centerh4 {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 29px;
+    font-family: serif;
+    color: #4D4DC6;
+}
+#contentp{
+  font-weight: 700;
+  font-size: 17px;
+  text-align: justify;
+}
+.home01{
+ 
+  position: relative;
+}
+
+#tag2:hover{
+        opacity: 0.7;
+
+}
+
+
+
+
+#roundborder{
+    float: right;
+
+}
+
+a:hover, a:focus {
+    color: rgba(35, 82, 124, 0.05);
+    text-decoration: none;
+}
+
+#imgyt1:hover{
+      opacity: 0.7;
+
+}
+#So1{
+  padding-top: 10%;
+}
+#social_groups{
+  padding-top: 10%;
+}
+#testthis{
+margin-left: -7px;
+margin-right: -4px;
+}
+.newt{
+
+    text-align: center;
+    height: 100%;
+    cursor: pointer;
+}
+#head5{
+    background-color: #242627;
+    position: fixed;
+    left: 0;
+        border-bottom: 4px solid #2A3C93;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    overflow:hidden;
+    z-index: 9999999999;
+    display: none;
+
+
+}
+#foot5 {
+    background-color: #242627;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    height: 80px;
+    z-index: 99999999;
+    width: 100%;
+    overflow:hidden;
+}
+#foo5{
+      height: 50px;
+      border-top: 4px solid #2A3C93;
+      background-color: #242627;
+}
+#fooContact{
+  bottom: 0px;
+        height: 50px;
+    position:absolute;
+    bottom:0px;
+      border-top: 4px solid #2A3C93;
+      background-color: #242627;
+}
+
+#bodyworkwithtag {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+html { 
+ /* background: url(http://theaccidentguys.co.uk/wp-content/uploads/2016/04/background-work-with-tag.png) no-repeat center center fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  overflow-x: hidden;
+  background-size: cover;
+}
+b#title8 {
+    text-align: center;
+    font-weight: 800;
+    font-family: sans-serif;
+    color: black;
+        font-size: 36px;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-shadow: 1px 2px 1px rgba(0,0,0,0.45);
+}
+
+#hr5 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 2px solid #7178C2;
+}
+
+.imgLinks{
+  cursor: pointer;
+}
+
+.hover14  {
+  position: relative;
+}
+
+
+   .fix{
+    position:fixed;
+    bottom:0px;
+    
+    }
+    #linkgroups{
+      padding-top: 150px;
+    }
+@media (max-width:768px) {
+  #maxw7{
+  width: 100% !important;
+}
+.scrollToTop{
+  display: none;
+}
+  #foot5{
+    position: relative;
+    overflow: inherit;
+    background-color: transparent;
+    
+  }
+  #head5{
+    display: none !important;
+
+  }
+  .newt{
+    padding-top: 10px;
+  }
+  .fix{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+  }
+  #roundborder{
+    float: none;
+    text-align: center;
+    padding-left: 1px !important;
+  }
+      #linkgroups{
+      padding-top: 10px;
+    }
+
+}
+@media (max-width: 1182px){
+        #linkgroups{
+      padding-top: 10px;
+    }
+    .fix{
+    position: relative;
+    bottom: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

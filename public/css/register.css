@@ -1,0 +1,133 @@
+
+
+#detailsur{
+
+background: #e3e3e3;
+    color: black;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+    #titlesur{
+        /* border: 3px solid red; */
+    background: #2a3695;
+    padding: 10px;
+    background: -moz-linear-gradient(top, #2a3695 0%, #00a6e8 99%);
+    background: -webkit-linear-gradient(top, #2a3695 0%,#00a6e8 99%);
+    background: linear-gradient(to bottom, #2a3695 0%,#00a6e8 99%);
+    color: white;
+    font-size: 35px;
+    font-weight: 100;
+    font-family: inherit;
+
+}
+#greyco{
+   /* background: rgba(0, 0, 0, 0.44);
+    border: 1px solid grey;
+        box-shadow: 0px 0px 59px 3px rgba(0,0,0,0.75);*/
+        background: white;
+}
+#registertitle{
+    color: white;
+    font-size: 50px;
+    /* text-transform: uppercase; */
+    font-weight: normal;
+    text-shadow: 1px 2px 1px rgba(0,0,0,0.45);
+}
+
+.form-horizontal .has-feedback .form-control-feedback {
+    right: 15px;
+    font-size: 22px !important;
+}
+.fv-form-bootstrap .fv-icon-no-label {
+    font-size: 22px !important;
+    top: 0;
+
+}
+#backregister{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e7edf7+0,a2ddef+100,c1d7dd+100 */
+background: #e7edf7; /* Old browsers */
+background: -moz-linear-gradient(top,  #e7edf7 0%, #a2ddef 100%, #c1d7dd 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #e7edf7 0%,#a2ddef 100%,#c1d7dd 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #e7edf7 0%,#a2ddef 100%,#c1d7dd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e7edf7', endColorstr='#c1d7dd',GradientType=0 ); /* IE6-9 */
+
+
+}
+#headersection{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2a3695+0,00a6e8+99 */
+background: #2a3695; /* Old browsers */
+background: -moz-linear-gradient(top,  #2a3695 0%, #00a6e8 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #2a3695 0%,#00a6e8 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #2a3695 0%,#00a6e8 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a3695', endColorstr='#00a6e8',GradientType=0 ); /* IE6-9 */
+color: white;
+}
+
+
+.radio_inline_radio{
+	display: inline;
+}
+    .wizard > .content {
+
+
+}
+
+.wizard > .content > .body input {
+    display: block;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+
+
+[type="radio"]:checked {
+
+border-radius: 50%;
+    -webkit-appearance: none;
+    background: #1E007B !important;
+    border: 4px solid rgb(189, 189, 189) !important;
+}
+
+input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+    position: absolute;
+    margin-top: 4px\9;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    width: 22px;
+    background: gold;
+    color: red;
+    height: 22px;
+    border: none;
+    cursor: pointer;
+    margin-left: -20px;
+}
+
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+    position: absolute;
+    margin-top: 4px\9;
+    margin-left: -20px;
+    margin-left: -27px !important;
+}
+
+.btn-primary{
+    color: #fff;
+    background-color: #0064cd !important;
+    background-repeat: repeat-x !important;
+    background-image: -khtml-gradient(linear,left top,left bottom,from(#049cdb),to(#0064cd)) !important;
+    background-image: -moz-linear-gradient(top,#049cdb,#0064cd)!important;
+    background-image: -ms-linear-gradient(top,#049cdb,#0064cd)!important;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#049cdb),color-stop(100%,#0064cd))!important;
+    background-image: -webkit-linear-gradient(top,#049cdb,#0064cd)!important;
+    background-image: -o-linear-gradient(top,#049cdb,#0064cd)!important;
+    background-image: linear-gradient(top,#049cdb,#0064cd)!important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#049cdb',endColorstr='#0064cd',GradientType=0)!important;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25)!important;
+    border-color: #0064cd #0064cd #003f81 !important;
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25)!important;
+}
